@@ -1,0 +1,62 @@
+html {
+  color: #282a2a;
+  font-size: 14px;
+  line-height: 1.4;
+  font-family: "Nunito Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #282a2a;
+}
+a:hover {
+  color: #ed5145;
+}
+a:active {
+  color: #ed5145;
+}
+ul {
+  list-style-type: none;
+}
+.site-header {
+  align-items: center;
+  color: white;
+  display: flex;
+  height: 80px;
+  margin: 0px 150px;
+  padding-top: 300px;
+  padding-bottom: 40px;
+}
+.logo {
+  justify-content: flex-start;
+  margin-right: auto;
+}
+.nav-right {
+  justify-content: flex-end;
+  margin-left: auto;
+}
+li {
+  align-items: center;
+  display: inline-flex;
+  justify-content: space-between;
+  padding: 0 14px;
+  font-size: 14px;
+}
+.portfoli-content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+.wrapper {
+}
+p {
+  align-items: center;
+  margin: 40px 0px;
+  text-align: center;
+}
+/*@media (min-width: 768px) {
+  body {
+    background-color: #fafaf;
+  }
+}
